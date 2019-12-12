@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css?family=Work+Sans:400,700");
+body {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  font-family: 'Work Sans';
+  overflow-x: hidden;
+  background-color: #566573;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+.fancy_title {
+  position: relative;
+  font-family: 'Work Sans';
+  text-transform: uppercase;
+  font-size: 6em;
+  line-height: 1;
+}
+.fancy_title span, .fancy_title:before, .fancy_title:after {
+  mix-blend-mode: divide;
+}
+.fancy_title, .fancy_title span {
+  display: inline-block;
+}
+.fancy_title:before, .fancy_title:after, .fancy_title span:before, .fancy_title span:after {
+  content: "Gradualize";
+  position: absolute;
+  top: 5px;
+  left: 0;
+  opacity: 0.8;
+}
+.fancy_title:before, .fancy_title span:before {
+  left: 7px;
+  color: yellow;
+}
+.fancy_title:after, .fancy_title span:after {
+  color: magenta;
+}
+.fancy_title span:before {
+  color: black;
+}
+.fancy_title span:after {
+  color: black;
+}
+.fancy_title span {
+  mix-blend-mode: multiply;
+  opacity: 0.8;
+  z-index: -1;
+  color: cyan;
+  position: relative;
+}

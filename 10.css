@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css?family=Work+Sans:400,700");
+body {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  font-family: 'Work Sans';
+  overflow-x: hidden;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Work Sans';
+  text-transform: uppercase;
+  font-size: 60vw;
+  letter-spacing: -0.2em;
+  word-break: break-all;
+  margin: 20px 0.04em 20px -0.16em;
+  line-height: 0.663;
+}
+h1 span {
+  mix-blend-mode: multiply;
+  opacity: 0.8;
+}
+
+.char1 {
+  color: #ABA93E;
+}
+
+.char2 {
+  color: #954777;
+}
+
+.char3 {
+  color: #982440;
+}
+
+.char4 {
+  color: #545B63;
+}
+
+.char5 {
+  color: #B4D27B;
+}
+
+.char6 {
+  color: #ABCED4;
+}
+
+.char7 {
+  color: #86915B;
+}
+
+.char8 {
+  color: #487C7D;
+}
+
+.char9 {
+  color: #9F732C;
+}
+
+footer {
+  flex-shrink: 0;
+  padding: 10px;
+  text-align: center;
+}
+
+a {
+  color: #487C7D;
+}
